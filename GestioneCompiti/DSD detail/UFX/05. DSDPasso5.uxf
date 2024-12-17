@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>0</y>
+      <w>1336</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>bg=yellow
+fontsize=25
+
+5. DSD getSummons </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>192</x>
+      <y>88</y>
+      <w>56</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>216</x>
+      <y>176</y>
+      <w>272</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+getSummons(date, job?)</panel_attributes>
+    <additional_attributes>320.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>472</x>
+      <y>192</y>
+      <w>16</w>
+      <h>480</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>656</x>
+      <y>104</y>
+      <w>320</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>CatERingAppManager.SummonManager:
+SummonManager</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>368</x>
+      <y>104</y>
+      <w>240</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>CatERingAppManager.TaskManager: 
+TaskManager</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>136</y>
+      <w>24</w>
+      <h>568</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;690.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>808</x>
+      <y>136</y>
+      <w>24</w>
+      <h>568</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;690.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>216</x>
+      <y>136</y>
+      <w>24</w>
+      <h>584</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;710.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>480</x>
+      <y>200</y>
+      <w>344</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+getSummons(date, job?)</panel_attributes>
+    <additional_attributes>410.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>808</x>
+      <y>216</y>
+      <w>16</w>
+      <h>432</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>816</x>
+      <y>248</y>
+      <w>192</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+create()</panel_attributes>
+    <additional_attributes>220.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>992</x>
+      <y>248</y>
+      <w>160</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>summonList: 
+ArrayList&lt;Summon&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1064</x>
+      <y>272</y>
+      <w>24</w>
+      <h>432</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;520.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>504</x>
+      <y>304</y>
+      <w>704</w>
+      <h>296</h>
+    </coordinates>
+    <panel_attributes>for each Summon
+in SummonBoard
+fg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>560</x>
+      <y>472</y>
+      <w>608</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>ALT Summon.getStartingDate() &lt;= date 
+AND Summon.getEndingDate() &gt;= date
+Summon.getMember().getJob() == job
+fg=#761C8C
+--
+
+
+
+
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>816</x>
+      <y>496</y>
+      <w>256</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+add(Summon)</panel_attributes>
+    <additional_attributes>300.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1056</x>
+      <y>512</y>
+      <w>16</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>816</x>
+      <y>608</y>
+      <w>272</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+summonList</panel_attributes>
+    <additional_attributes>10.0;20.0;320.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>480</x>
+      <y>632</y>
+      <w>344</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+summonList</panel_attributes>
+    <additional_attributes>10.0;20.0;410.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>216</x>
+      <y>656</y>
+      <w>272</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+summonList</panel_attributes>
+    <additional_attributes>10.0;20.0;320.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1064</x>
+      <y>288</y>
+      <w>16</w>
+      <h>336</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>560</x>
+      <y>368</y>
+      <w>568</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>ALT Summon.getStartingDate() &lt;= date 
+AND Summon.getEndingDate() &gt;= date 
+fg=#761C8C
+--
+
+
+
+
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1056</x>
+      <y>400</y>
+      <w>16</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>816</x>
+      <y>384</y>
+      <w>256</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+add(Summon)</panel_attributes>
+    <additional_attributes>300.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>520</x>
+      <y>344</y>
+      <w>672</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>ALT job == null
+fg=#761C8C
+--
+
+
+
+
+
+
+
+-.
+
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

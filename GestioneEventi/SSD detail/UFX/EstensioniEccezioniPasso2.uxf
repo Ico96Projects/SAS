@@ -1,0 +1,1678 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <help_text>// Uncomment the following line to change the fontsize and font:
+fontsize=13
+// fontfamily=SansSerif //possible: SansSerif,Serif,Monospaced
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+// Welcome to UMLet!
+//
+// Double-click on elements to add them to the diagram, or to copy them
+// Edit elements by modifying the text in this panel
+// Hold Cmd to select multiple elements
+// Use Cmd+mouse to select via lasso
+//
+// Use +/- or Cmd+mouse wheel to zoom
+// Drag a whole relation at its central square icon
+//
+// Press Cmd+C to copy the whole diagram to the system clipboard (then just paste it to, eg, Word)
+// Edit the files in the "palettes" directory to create your own element palettes
+//
+// Select "Custom Elements &gt; New..." to create new element types
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// This text will be stored with each diagram;  use it for notes.</help_text>
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>0</y>
+      <w>1096</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>
+SSD per l'UC "Gestire gli eventi"
+Estensioni ed eccezioni: Passo 2
+
+bg=yellow
+layer=2
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>96</x>
+      <y>64</y>
+      <w>96</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>Organizzatore</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>960</x>
+      <y>80</y>
+      <w>88</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>System</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>136</y>
+      <w>24</w>
+      <h>2680</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;3330.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>992</x>
+      <y>112</y>
+      <w>24</w>
+      <h>2696</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;3350.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>160</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+1. EventiPerData(data)</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>184</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+Numero di eventi programmati e in corso</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>72</x>
+      <y>152</y>
+      <w>992</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>OPT
+fg=#128C86
+bg=#B8E0E0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>240</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+layer=4
+2. CreaEventoSemplice(committente, nomeEvento, dataInizio, location, oraInizio, oraFine, partecipanti, note?, documentazione)</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>2056</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+Chef assegnato</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>2032</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+3. AssegnaChef(chef)</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>72</x>
+      <y>2088</y>
+      <w>992</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>OPT
+fg=#128C86
+bg=#B8E0E0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>72</x>
+      <y>2176</y>
+      <w>992</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>OPT
+fg=#128C86
+bg=#B8E0E0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>2096</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+4. ScegliLocation(location)</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>2120</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+Location dell'evento aggiornata</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>2184</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+5. CreaServizio(tipologia, partecipanti, location, data, oraInizio, oraFine)</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>2208</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+Servizio creato</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>32</x>
+      <y>2264</y>
+      <w>1064</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>LOOP
+fg=blue
+bg=#8CB4FF
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>72</x>
+      <y>2280</y>
+      <w>992</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>OPT
+fg=#128C86
+bg=#B8E0E0
+layer=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>2288</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+layer=3
+6. ConsultaDisponibilità(data)</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>2312</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+layer=3
+Disponibilità</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>2360</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+layer=2
+7. ConvocaPersonale(personale, dataInizio, dataFine, oraInizio, oraFine)</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>2384</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+layer=2
+Aggiorna il tabellone delle convocazioni</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>2440</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+8. ApprovaMenù(servizio)</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>2464</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+Menù approvato e reso pubblico, aggiornamento dello stato dell'evento in "confermato"</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>32</x>
+      <y>2504</y>
+      <w>1064</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>LOOP
+fg=blue
+bg=#8CB4FF
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>2528</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+layer=3
+9. ConsultaConvocazioni(data)</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>72</x>
+      <y>2520</y>
+      <w>992</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>OPT
+fg=#128C86
+bg=#B8E0E0
+layer=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>2552</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+layer=3
+Convocazioni</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>2680</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+layer=2
+11. AssegnaCompito(personale, compito?, ruolo?, turno)</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>72</x>
+      <y>2600</y>
+      <w>992</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>OPT
+fg=#128C86
+bg=#B8E0E0
+layer=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>2632</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+layer=3
+Turni</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>2704</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+layer=2
+Aggiorna il tabellone dei turni</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>2608</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+layer=3
+10. ConsultaTurni(data)</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>32</x>
+      <y>232</y>
+      <w>1064</w>
+      <h>1776</h>
+    </coordinates>
+    <panel_attributes>ALT
+fg=#761C8C
+bg=#e7bfff
+lw=2
+layer=1
+--
+
+
+
+
+
+
+
+
+
+-.
+
+
+
+
+
+
+
+
+
+
+-.
+
+
+
+
+
+
+
+
+
+
+-.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>272</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+layer=4
+Evento creato con stato "programmato"</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>104</x>
+      <y>264</y>
+      <w>944</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>ALT
+fg=#761C8C
+bg=#e7bfff
+lw=2
+layer=3
+--
+
+-.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>992</x>
+      <y>320</y>
+      <w>16</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>type=termination
+fg=red
+layer=4
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>312</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+layer=4
+2a.1 Esiste già una scheda per l'evento
+fg=red</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>368</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+layer=4
+2a.1 CreaEventoComplesso(committente, nomeEvento, dataInizio, dataFine, location, oraInizio, oraFine, numeroServizi, partecipanti, note?, documentazione)
+fg=#9E1C8C</panel_attributes>
+    <additional_attributes>1080.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>104</x>
+      <y>392</y>
+      <w>944</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>ALT
+fg=#761C8C
+bg=#e7bfff
+lw=2
+layer=3
+--
+
+-.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>400</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+fg=#9E1C8C
+layer=4
+Evento complesso creato con stato "programmato"</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>440</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+layer=4
+2a.1a.1 Esiste già una scheda per l'evento
+fg=red</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>992</x>
+      <y>448</y>
+      <w>16</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>type=termination
+fg=red
+layer=4
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>496</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+layer=4
+2b.1 CreaEventoRicorrente(committente, nomeEvento, frequenza, dataInizio, dataFine, location, oraInizio, oraFine, numeroServizi, partecipanti, note?, documentazione)
+fg=#9E1C8C</panel_attributes>
+    <additional_attributes>1080.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>104</x>
+      <y>520</y>
+      <w>944</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>ALT
+fg=#761C8C
+bg=#e7bfff
+lw=2
+layer=3
+--
+
+-.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>528</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+fg=#9E1C8C
+layer=4
+Evento ricorrente creato con stato "programmato"</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>568</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+layer=4
+2b.1a.1 Esiste già una scheda per l'evento
+fg=red</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>992</x>
+      <y>576</y>
+      <w>16</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>type=termination
+fg=red
+layer=4
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>616</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+layer=4
+2c.1 ApriSchedaEvento(evento)
+fg=#9E1C8C</panel_attributes>
+    <additional_attributes>1080.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>648</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+fg=#9E1C8C
+layer=4
+Scheda evento</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>688</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+layer=4
+2c.1a.1 Non esiste una scheda per l'evento
+fg=red</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>992</x>
+      <y>696</y>
+      <w>16</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>type=termination
+fg=red
+layer=4
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>104</x>
+      <y>640</y>
+      <w>944</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>ALT
+fg=#761C8C
+bg=#e7bfff
+lw=2
+layer=3
+--
+
+-.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>56</x>
+      <y>728</y>
+      <w>1016</w>
+      <h>1256</h>
+    </coordinates>
+    <panel_attributes>ALT
+fg=#761C8C
+bg=#e7bfff
+lw=2
+layer=2
+--
+
+
+
+
+
+
+
+
+
+
+
+
+-.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-.
+
+
+
+
+
+
+
+
+
+
+
+-.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>736</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+layer=4
+2c.2 ModificaEventoSemplice(dataInizio?, location?, oraInizio?, oraFine?, partecipanti?)
+fg=#9E1C8C</panel_attributes>
+    <additional_attributes>1080.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>768</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+fg=#9E1C8C
+layer=4
+Registra la modifica all'evento semplice</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>808</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+layer=4
+2c.2a.1 L'evento è già stato chiuso
+fg=red</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>992</x>
+      <y>816</y>
+      <w>16</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>type=termination
+fg=red
+layer=4
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>104</x>
+      <y>760</y>
+      <w>944</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>ALT
+fg=#761C8C
+bg=#e7bfff
+lw=2
+layer=3
+--
+
+-.
+
+
+
+-.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>848</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+layer=4
+2c.2b.1 L'evento è già stato annullato
+fg=red</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>992</x>
+      <y>856</y>
+      <w>16</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>type=termination
+fg=red
+layer=4
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>904</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+layer=4
+2c.2a.1 ModificaEventoComplesso(dataInizio?, dataFine?, location?, oraInizio?, oraFine?, numeroServizi?, partecipanti?)
+fg=#9E1C8C</panel_attributes>
+    <additional_attributes>1080.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>936</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+fg=#9E1C8C
+layer=4
+Registra la modifica all'evento complesso</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>984</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+layer=4
+2c.2a.1a.1 L'evento è già stato chiuso
+fg=red</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>992</x>
+      <y>992</y>
+      <w>16</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>type=termination
+fg=red
+layer=4
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>992</x>
+      <y>1032</y>
+      <w>16</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>type=termination
+fg=red
+layer=4
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>104</x>
+      <y>928</y>
+      <w>944</w>
+      <h>128</h>
+    </coordinates>
+    <panel_attributes>ALT
+fg=#761C8C
+bg=#e7bfff
+lw=2
+layer=3
+--
+
+
+-.
+
+
+
+-.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>1024</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+layer=4
+2c.2a.1b.1 L'evento è già stato annullato
+fg=red</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>1072</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+layer=4
+2c.2b.1 ModificaIstanzaEventoRicorrente(istanza, dataSvolgimento?, location?, oraInizio?, oraFine?, numeroServizi?, partecipanti?)
+fg=#9E1C8C</panel_attributes>
+    <additional_attributes>1080.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>1104</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+fg=#9E1C8C
+layer=4
+Registra la modifica all'istanza dell'evento ricorrente</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>1232</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+layer=4
+2c.2b.1c.1 L'evento è già stato chiuso
+fg=red</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>992</x>
+      <y>1240</y>
+      <w>16</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>type=termination
+fg=red
+layer=4
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>992</x>
+      <y>1280</y>
+      <w>16</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>type=termination
+fg=red
+layer=4
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>1272</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+layer=4
+2c.2b.1d.1 L'evento è già stato annullato
+fg=red</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>104</x>
+      <y>1096</y>
+      <w>944</w>
+      <h>208</h>
+    </coordinates>
+    <panel_attributes>ALT
+fg=#761C8C
+bg=#e7bfff
+lw=2
+layer=3
+--
+
+
+-.
+
+
+
+-.
+
+
+
+-.
+
+
+
+-.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>1152</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+layer=4
+2c.2b.1a.1 L'istanza dell'evento è già terminata
+fg=red</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>992</x>
+      <y>1160</y>
+      <w>16</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>type=termination
+fg=red
+layer=4
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>1192</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+layer=4
+2c.2b.1b.1 L'istanza dell'evento è già stata annullata
+fg=red</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>992</x>
+      <y>1200</y>
+      <w>16</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>type=termination
+fg=red
+layer=4
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>1328</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+layer=4
+2c.2c.1 ModificaEventoRicorrente(frequenza?, dataInizio?, dataFine?, location?, oraInizio?, oraFine?, numeroServizi?, partecipanti?)
+fg=#9E1C8C</panel_attributes>
+    <additional_attributes>1080.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>1360</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+fg=#9E1C8C
+layer=4
+Registra la modifica all'evento ricorrente</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>1408</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+layer=4
+2c.2c.1a.1 L'evento è già stato chiuso
+fg=red</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>1448</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+layer=4
+2c.2c.1b.1 L'evento è già stato annullato
+fg=red</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>992</x>
+      <y>1416</y>
+      <w>16</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>type=termination
+fg=red
+layer=4
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>992</x>
+      <y>1456</y>
+      <w>16</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>type=termination
+fg=red
+layer=4
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>104</x>
+      <y>1352</y>
+      <w>944</w>
+      <h>128</h>
+    </coordinates>
+    <panel_attributes>ALT
+fg=#761C8C
+bg=#e7bfff
+lw=2
+layer=3
+--
+
+
+-.
+
+
+
+-.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>1496</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+layer=4
+2c.2d.1 AnnullaEvento(note?, documentazione?)
+fg=#9E1C8C</panel_attributes>
+    <additional_attributes>1080.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>1528</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+fg=#9E1C8C
+layer=4
+Registra l'annullamento dell'evento, stato dell'evento aggiornato come "annullato"</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>104</x>
+      <y>1520</y>
+      <w>944</w>
+      <h>128</h>
+    </coordinates>
+    <panel_attributes>ALT
+fg=#761C8C
+bg=#e7bfff
+lw=2
+layer=3
+--
+
+
+-.
+
+
+
+-.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>1576</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+layer=4
+2c.2d.1a.1 L'evento è già stato chiuso
+fg=red</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>992</x>
+      <y>1584</y>
+      <w>16</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>type=termination
+fg=red
+layer=4
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>1616</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+layer=4
+2c.2d.1b.1 L'evento è già stato annullato
+fg=red</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>992</x>
+      <y>1624</y>
+      <w>16</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>type=termination
+fg=red
+layer=4
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>1672</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+layer=4
+2c.2e.1. EliminaEvento()
+fg=#9E1C8C</panel_attributes>
+    <additional_attributes>1080.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>1704</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+fg=#9E1C8C
+layer=4
+Registra l'eliminazione dell'evento, stato dell'evento aggiornato come "eliminato"</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>1744</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+layer=4
+2c.2e.1a.1 L'evento è già stato chiuso
+fg=red</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>992</x>
+      <y>1752</y>
+      <w>16</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>type=termination
+fg=red
+layer=4
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>104</x>
+      <y>1696</y>
+      <w>944</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>ALT
+fg=#761C8C
+bg=#e7bfff
+lw=2
+layer=3
+--
+
+-.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>1808</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+layer=4
+2c.2f.1. ChiudiEvento(evento, note?, documentazione?) 
+fg=#9E1C8C</panel_attributes>
+    <additional_attributes>1080.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>1840</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+fg=#9E1C8C
+layer=4
+Registra la chiusura dell'evento, stato dell'evento aggiornato come "terminato"</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>104</x>
+      <y>1832</y>
+      <w>944</w>
+      <h>128</h>
+    </coordinates>
+    <panel_attributes>ALT
+fg=#761C8C
+bg=#e7bfff
+lw=2
+layer=3
+--
+
+
+-.
+
+
+
+-.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>1888</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+layer=4
+2c.2f.1a.1 L'evento è già stato chiuso
+fg=red</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>1928</y>
+      <w>880</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+layer=4
+2c.2f.1b.1 L'evento è già stato annullato
+fg=red</panel_attributes>
+    <additional_attributes>10.0;20.0;1080.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>992</x>
+      <y>1936</y>
+      <w>16</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>type=termination
+fg=red
+layer=4
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>992</x>
+      <y>1896</y>
+      <w>16</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>type=termination
+fg=red
+layer=4
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
